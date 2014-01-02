@@ -153,6 +153,7 @@ module Jasmine::Headless
         register_engine '.js', Jasmine::Headless::JSTemplate
         register_engine '.css', Jasmine::Headless::CSSTemplate
         register_engine '.jst', Jasmine::Headless::JSTTemplate
+        register_engine '.hamlbars', Jasmine::Headless::HBSTemplate
       end
 
       @sprockets_environment
